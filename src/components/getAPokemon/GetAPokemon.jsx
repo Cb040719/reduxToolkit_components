@@ -19,7 +19,7 @@ export default function GetAPokemon() {
 			>
 				<input
 					type="text"
-					placeholder="Pokemon name (lowerCase|minuscolo)"
+					placeholder="PokeName(minuscolo)"
 					className="outline-none p-2 my-2"
 				/>
 				<input
