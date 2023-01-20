@@ -4,11 +4,11 @@ This project is a demonstration of how to use Redux Toolkit, TailwindCSS, Redux 
 
 ## TodoList
 
-The TodoList component uses the `todoSlice` to manage state. This slice contains reducers for adding, removing and updating todos in the list. It also contains an asynchronous thunk for fetching data from an API endpoint.
+The TodoList component uses the `todoSlice` to manage state. This slice contains reducers for adding, removing and updating todos in the list.
 
 ## Counter
 
-The Counter component uses the `counterSlice` to manage state. This slice contains reducers for incrementing and decrementing the counter value. It also contains an asynchronous thunk for fetching data from an API endpoint.
+The Counter component uses the `counterSlice` to manage state. This slice contains reducers for incrementing and decrementing the counter value.
 
 ## GetAPokemon
 
