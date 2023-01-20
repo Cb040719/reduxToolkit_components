@@ -1,5 +1,6 @@
 import Counter from "./components/counter/Counter";
 import TodoList from "./components/todoList/TodoList";
+import GetAPokemon from "./components/getAPokemon/GetAPokemon";
 
 function App() {
 	return (
@@ -7,6 +8,7 @@ function App() {
 			<h1 className="text-3xl text-center">REDUX-TOOLKIT COMPONENTS</h1>
 			<TodoList />
 			<Counter />
+			<GetAPokemon />
 		</div>
 	);
 }
