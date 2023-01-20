@@ -1,6 +1,6 @@
 # Redux Toolkit Components
 
-This project is a demonstration of how to use Redux Toolkit, TailwindCSS, Redux Toolkit Query and Vite. It contains components for a Todo List, Counter and GetAPokemon.
+This project is a demonstration of how to use [Redux Toolkit](https://redux-toolkit.js.org/), [TailwindCSS](https://tailwindcss.com/), [RTK query](https://redux-toolkit.js.org/rtk-query/overview) and [Vite](https://vitejs.dev/). It contains components for a Todo List, Counter and GetAPokemon.
 
 ## TodoList
 
