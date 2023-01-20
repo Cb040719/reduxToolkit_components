@@ -9,7 +9,7 @@ export default function GetAPokemon() {
 		<div className="bg-[#4a4a4a] p-5 w-fit">
 			<h1 className=" text-2xl">Get a Pokemon!</h1>
 			<form
-				className="mb-5 flex justify-between items-center"
+				className="flex justify-between items-center"
 				onSubmit={(e) => {
 					e.preventDefault();
 					e.target[0].value !== ""
@@ -35,7 +35,7 @@ export default function GetAPokemon() {
 				<>Loading...</>
 			) : data ? (
 				<>
-					<div className="flex justify-between">
+					<div className="flex justify-between pl-2">
 						<h3 className="flex items-center font-medium tracking-wider">
 							{data.species.name.toUpperCase()}
 						</h3>
