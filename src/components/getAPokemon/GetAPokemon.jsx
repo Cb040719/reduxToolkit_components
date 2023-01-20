@@ -9,6 +9,7 @@ export default function GetAPokemon() {
 		<div className="bg-[#4a4a4a] p-5 w-fit">
 			<h1 className=" text-2xl">Get a Pokemon!</h1>
 			<form
+				className="mb-5 flex justify-between items-center"
 				onSubmit={(e) => {
 					e.preventDefault();
 					e.target[0].value !== ""
@@ -23,7 +24,7 @@ export default function GetAPokemon() {
 					className="outline-none p-2 my-2"
 				/>
 				<input
-					className="p-2 bg-green-800 cursor-pointer"
+					className="p-2 bg-green-800 cursor-pointer h-fit"
 					type="submit"
 					value="Submit"
 				/>
