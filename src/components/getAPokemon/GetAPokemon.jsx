@@ -12,14 +12,14 @@ export default function GetAPokemon() {
 				onSubmit={(e) => {
 					e.preventDefault();
 					e.target[0].value !== ""
-						? setPokeName(e.target[0].value)
+						? setPokeName(e.target[0].value.toLowerCase())
 						: alert("Insert. A. PokeFuckingName.");
 					e.target[0].value = "";
 				}}
 			>
 				<input
 					type="text"
-					placeholder="PokeName(minuscolo)"
+					placeholder="PokeName here"
 					className="outline-none p-2 my-2"
 				/>
 				<input
